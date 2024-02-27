@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #282425;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+dd {
+    margin-left:0%;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #3B385D;
+}
+
+h3 {
+    font-size: 24px;
+    color: #3B385D;
+}
+
+a {
+    color: #3B385D;
+    font-style: italic;
+}
+
+a:hover {
+    color: #857ED2;
+}
+
+/* Sekce a barvy pozadí */
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.omne, .dovednosti, .veda {
+    background-color: #C0D7ED;
+}
+
+.vzdelani, .zkusenosti, .zajmy {
+    background-color: #C0C9ED;
+}
+
+/* Sekce o mně */
+.foto-omne {
+    float: left;
+    width: 300px;
+    margin: 0 30px 30px 0;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px 
+}
+
+/* Sekce vzdělání */
+table {
+    border-spacing: 0;
+}
+
+tr {
+    padding: 10px 0;
+    text-align: left;
+}
+
+/* Sekce věda */
+.foto-konference_1 {
+    float: right;
+    width: 350px;
+    margin: 0 0 30px 30px;
+    border-radius: 0 50px 50px 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.foto-konference {
+    float: left;
+    width: 350px;
+    margin: 30px 30px 0 0;
+    border-radius: 50px 0 50px 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*Sekce Zájmy */
+.zajmy img {
+    width: 32%;
+    border: 2px solid #4D497A;
+    border-radius: 5px;
+}
+
+/* Hlavní menu */
+.menu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    color: white;
+    background-color: #080E3F;
+    border-top: 1px solid #0C145C;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+.menu a:hover {
+    background-color: #89A8D3;
+}
+
+/* Hlavička */
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(img/foto_4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Patička */
+.paticka {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #080E3F;
+    color: white;
+}
